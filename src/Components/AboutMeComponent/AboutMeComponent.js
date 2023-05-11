@@ -14,7 +14,7 @@ export default function AboutMeComponent() {
 
         <Row>
             <Col>
-
+                
             </Col>
             <Col>
             
