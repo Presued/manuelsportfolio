@@ -1,20 +1,24 @@
 import React from 'react'
 import '../../App.css'
+import '../NavbarComponent/Navbar.css'
 import { Col, Row, Nav, NavDropdown, Navbar, Container, Form, Button } from 'react-bootstrap'
 
 export default function NavbarComponent() {
     return (
         <div>
             <Row>
-                <Col lg={12}>
-                    <Navbar bg="light" variant="light">
-                        <Container>
-                            <Navbar.Brand href="#home">Home</Navbar.Brand>
-                            <Nav className="me-auto">
-                                <Nav.Link >About Me</Nav.Link>
-                                <Nav.Link >Projects</Nav.Link>
-                            </Nav>
-                        </Container>
+                <Col>
+                    <Navbar bg="secondary" variant="light">
+                        <Col lg={1} xl={2}>
+                            <h4 className='text-white manuelCuztomize'>Manuel dev</h4>
+                        </Col>
+                        <Col lg={11} xl={10} className='destinationCustomize'>
+                            <Row>
+                                <Col>
+                                <span>Home</span> <span>About</span> <span>Projects</span>
+                               </Col>
+                            </Row>
+                        </Col>
                     </Navbar>
 
                 </Col>
