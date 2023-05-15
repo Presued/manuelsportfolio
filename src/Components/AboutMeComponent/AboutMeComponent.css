@@ -1,0 +1,16 @@
+.aboutMeBackground{
+    background-color: #6C757C;
+}
+
+.aboutMeTextCustomize{
+    font-size: x-large;
+}
+ .aboutImgCustomize{
+    padding-left: 15rem;
+    padding-bottom: 2rem;
+ }
+
+ .aboutImgBorder{
+    border-radius: 2rem;
+ }
+ 

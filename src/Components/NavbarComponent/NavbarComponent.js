@@ -8,9 +8,9 @@ export default function NavbarComponent() {
         <div>
             <Row>
                 <Col>
-                    <Navbar bg="secondary" variant="light">
+                    <Navbar bg="secondary" variant="light" expand="lg">
                         <Col lg={1} xl={2}>
-                            <h4 className='text-white manuelCuztomize'>Manuel dev</h4>
+                            <h4 className='text-white manuelCuztomize'>manuel.dev</h4>
                         </Col>
                         <Col lg={11} xl={10} className='destinationCustomize'>
                             <Row>
